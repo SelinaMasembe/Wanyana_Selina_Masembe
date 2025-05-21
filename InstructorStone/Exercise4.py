@@ -23,9 +23,9 @@ print(uppercase_string)
 replace = txt.replace("U", "V")
 print(replace)
 
-#5.Range of characters in the 2nd, 3rd and 4th position
+#5.Range of characters in the 2nd, 3rd and 4th position 
 y = "I am proudly Ugandan"
-range_of_characters = y[1:4]
+range_of_characters = y[1:4]  #prints till character before the one in the 4th position.
 print(range_of_characters)
 
 #6.Correcting a string with double quotes
