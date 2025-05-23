@@ -27,6 +27,7 @@ def add_numbers(num1,num2):
     print("The sum of",num1,"and", num2,"is:", result)
     
 add_numbers(5,6)
+print("\n")
 
 #Return
 #ends the function execution and returns a value
@@ -41,3 +42,22 @@ print("Sum:", sum)
 print("Difference:", difference)    
 print("Product:", product)
 print("Quotient:", quotient)
+print("\n")
+
+#lambda functions
+#Anonymous functions
+#Used for short, throwaway functions
+#Syntax: lambda arguments: expression
+
+square = lambda x: x**2
+print("Square of 5 is:", square(5))
+print("\n")
+
+"""
+def add(x,y):
+    return x+y
+"""
+
+add = lambda x,y:x+y
+print("Sum of 5 and 6 is:", add(5,6))
+print("\n")
