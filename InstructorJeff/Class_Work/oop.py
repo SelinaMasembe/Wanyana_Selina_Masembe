@@ -78,3 +78,41 @@ print("\n")
 
 #Abstraction
 # Abstraction is the concept of hiding the complex implementation details and showing only the essential features of an object.
+
+"""
+1. use @abstractmethod decorator to define abstract methods in an abstract class
+2.import ABC from abc module
+3. Create a class that inherits from ABC
+from abc import ABC, abstractmethod
+"""
+
+from abc import ABC, abstractmethod
+
+"""
+1.You cannot create an instance of an abstract class (Vehicle in this case).
+2.You must implement all abstract methods in the derived class (Car in this case) to create an instance of that class.
+
+ie: vehicle = Vehicle()  # This will raise an error because Vehicle is abstract
+"""
+
+class Vehicle(ABC):
+    @abstractmethod
+    def start_engine(self):
+        pass  # Abstract method, no implementation here
+    
+#class Car inherits from Vehicle and provides implementation for the abstract method
+class Car(Vehicle):
+    def start_engine(self):
+        print("Car engine started")
+        
+class Bike(Vehicle):
+    def start_engine(self):
+        print("Bike engine started")
+        
+# Creating instances of Car and Bike
+car = Car()
+bike = Bike()
+car.start_engine()  # Output: Car engine started
+bike.start_engine()  # Output: Bike engine started
+print("\n")
+        
