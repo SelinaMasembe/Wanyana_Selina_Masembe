@@ -20,7 +20,7 @@ TYPES OF MACHINE LEARNING:
 4.Reinforcement Learning-uses rewards
 """
 
-#SUPERVISED LEARNING - labelled dataset, structured
+#SUPERVISED LEARNING - labelled dataset [in csv or json files], structured
 """
 Common algorithms with Supervised learning:
 .Linear Regression
@@ -31,6 +31,9 @@ Common algorithms with Supervised learning:
 .Random Forest(RF)
 
 .Deep learning (CNN ) -image classification
+CNN - Convolutional Neural Network
+definition:
+A Convolutional Neural Network (CNN) is a type of deep learning model specifically designed for processing structured grid data, such as images. It uses convolutional layers to automatically learn spatial hierarchies of features from the input data, making it highly effective for tasks like image recognition and classification.
 
 """
 
