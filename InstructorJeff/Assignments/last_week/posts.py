@@ -4,8 +4,8 @@ from telegram import Update, ForceReply
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Set your keys
-TELEGRAM_TOKEN: Final = '8045446555:AAEIPMaH3wqz-DtvF8fdGIrNBdaCBL0eggQ'
-OPENAI_API_KEY: Final = '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'
+TELEGRAM_TOKEN: Final = 'whatsapp'
+OPENAI_API_KEY: Final = ''
 BOT_USERNAME: Final = "@social_media_year2_bot"
 openai.api_key = OPENAI_API_KEY
 

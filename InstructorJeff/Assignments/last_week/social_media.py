@@ -2,7 +2,7 @@ from typing import Final
 from telegram import Update
 from telegram.ext import ContextTypes, CommandHandler, MessageHandler, filters, Application
 
-TOKEN: Final = "8043429927:AAFW7Hypoa8pdHx2bqjhjRnr2bopLhtqFqo"
+TOKEN: Final ="whatsapp"
 BOT_USERNAME: Final = "recess_year2_bot"
 
 #Commands
